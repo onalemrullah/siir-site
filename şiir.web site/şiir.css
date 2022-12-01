@@ -1,0 +1,17 @@
+
+body{
+    padding: 30px;
+}
+.title{
+    display: block;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.content{
+    height: 0px;
+    overflow: hidden;
+}
+input:checked + .title + .alan + .content{
+    height: auto;
+}
